@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="navigation">
+            <input id="UserInput" type="text" placeholder="Enter the city Name">
+            <button onclick="getINFO()"><img class="search" src="svg/Search.svg" alt=""></button>
+        </div>
+        <img id="weather" src="svg/weather/Clear.svg" alt="">
+        <div class="Temperature"><span id="Temperature">0</span><sup>o</sup>C</div>
+        <div id="CityName">Unknown</div>
+        <div class="humispeed">
+            <div class="moreInfo">
+                <img src="svg/weather/Humidity.svg" alt="">
+                <div class="info">
+                    <div><span id="humidity">20</span>%</div>
+                    <div class="text">Humidity</div>
+                </div>
+            </div>
+            <div class="moreInfo">
+                <img src="svg/weather/AIR.svg" alt="">
+                <div class="info">
+                    <div><span id="speed">15</span> km/h</div>
+                    <div class="text">Wind Speed</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
